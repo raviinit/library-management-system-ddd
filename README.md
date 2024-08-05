@@ -1,0 +1,2 @@
+# library-management-system-ddd
+LIBRARY MANAGEMENT SYSTEM API with a DOMAIN DRIVEN DESIGN (DDD) APPROACH
