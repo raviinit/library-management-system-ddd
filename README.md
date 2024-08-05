@@ -28,51 +28,6 @@ Run below: (run this whenever you add a new files to the application)
 
 --
 
-Application Structure:
-
-library-management-system-ddd/
-├── config/
-│   └── database.php
-|   |__ routecontroller.php
-├── src/
-│   ├── App/
-│   │   ├── Services/
-│   │   │   ├── BookService.php
-│   │   │   ├── UserService.php
-│   │   │   └── BorrowService.php
-│   ├── Library/
-│   │   ├── Book/
-│   │   │   ├── Book.php
-│   │   │   ├── BookRepositoryInterface.php
-│   │   ├── User/
-│   │   │   ├── User.php
-│   │   │   ├── UserRepositoryInterface.php
-│   │   ├── Borrow/
-│   │   │   ├── Borrow.php
-│   │   │   ├── BorrowRepositoryInterface.php
-│   ├── DbInfra/
-│   │   ├── Persistence/
-│   │   │   ├── BookRepository.php
-│   │   │   ├── UserRepository.php
-│   │   │   └── BorrowRepository.php
-│   ├── Interfaces/
-│   │   ├── Controllers/
-│   │   │   ├── BookController.php
-│   │   │   ├── UserController.php
-│   │   │   └── BorrowController.php
-│   └── Shared/
-│       └── Entity.php
-├── public/
-│   └── index.php
-└── vendor/
-|   └── autoload.php
-|__ composer.json
-|__ ReadMe.md
-|__ LMSuserstory.md
-|__ library-management-system-ddd.sql
-
---
-
 Now, make sure you have a database 'library-management-system-ddd' (which you mentioned in config/database.php file) created in MySQL database server with given tables.
 `books`, `users`, `borrows` (db.sql file included)
 You can use https://onecompiler.com/mysql online mysql editor for this to test.
