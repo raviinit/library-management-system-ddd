@@ -1,0 +1,83 @@
+Develop a Library Management System API using PHP (OOPs PHP) and MySQL.
+This API should follow design patterns and best practices, including CRUD operations and
+creating APIs with JSON responses.
+
+General Description:
+The purpose of this project is to implement a Library Management System API. It should
+contain "Book", "User", and "Borrow" resources. The system should manage books, users,
+and borrowing records.
+
+Required Features:
+
+Books:
+- Add new book: Title, Author, Genre, ISBN, Published Date, and Status (Available, Borrowed)
+are required.
+- View list of existing books: Retrieve a list of all books.
+- View book details: Retrieve detailed information about a specific book.
+- Edit book: Update book information.
+- Remove book: Delete a book from the system.
+
+Users:
+- Add new user: Name, Email, Role (Admin, User), and Password are required.
+- View list of existing users: Retrieve a list of all users.
+- View user details: Retrieve detailed information about a specific user.
+- Edit user: Update user information.
+- Remove user: Delete a user from the system.
+
+Borrows:
+- Borrow a book: Record when a user borrows a book.
+- Return a book: Record when a user returns a book.
+- View borrowing history: Retrieve a list of all borrowing records.
+
+Test Cases:
+- Unit tests: Cover all key functionalities with unit tests to ensure reliability.
+
+Notes:
+
+API Design:
+- The API should adhere to RESTful principles, according to your vision.
+- It should accept and respond with JSON.
+
+Data Storage:
+- All data should be stored in MySQL DB, ensuring data integrity.
+- Ensure that migrating the PHP code to use a different storage solution (like MongoDB/Redis) in the future is as simple as possible.
+
+Libraries and Frameworks:
+- Use Symfony framework for structuring the project.
+- Adherence to DDD principles is highly encouraged.
+
+Code Quality:
+- Write clean, well-organized, and maintainable code following best practices.
+- Use design patterns where appropriate.
+- Ensure proper validation and error handling.
+
+Security:
+- Although no authentication is needed for this version, consider security best practices in your code.
+
+Submission:
+
+Candidates should submit:
+- The complete source code of the project.
+- Database schema and sample data for testing.
+- Good to have API documentation (Swagger or similar).
+- Instructions on how to set up and run the project locally.
+- Tests for key functionalities (unit and integration tests).
+
+Evaluation Criteria:
+
+Design and Implementation:
+- Database Design: Quality and normalization of the database schema.
+- Code Quality: Readability, organization, and adherence to best practices.
+- Design Patterns: Appropriate use and implementation of design patterns.
+
+API Development:
+- Completeness and correctness of API endpoints.
+- Quality of API documentation.
+- Proper error handling and validation.
+
+Security:
+- Consideration of security best practices in the implementation.
+
+Testing:
+- Coverage and quality of tests.
+- Proper handling of edge cases.

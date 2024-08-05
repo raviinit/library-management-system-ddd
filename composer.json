@@ -1,0 +1,20 @@
+{
+    "name": "library/library",
+    "type": "project",
+    "description": "Library Management System in PHP",
+    "keywords": ["custom framework", "PHP"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ravinder L",
+            "email": "raviinit@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"src/"
+        }
+    }
+}
