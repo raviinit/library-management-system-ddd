@@ -1,5 +1,5 @@
 
-# LIBRARY MANAGEMENT SYSTEM API with a DOMAIN DRIVEN DESIGN (DDD) APPROACH
+LIBRARY MANAGEMENT SYSTEM API with a DOMAIN DRIVEN DESIGN (DDD) APPROACH
 Technology/Language: PHP Object Oriented Programming - MIT
 
 Developing a Library Management System API, using OOPs PHP and DDD which involves organizing the code into domains and bounded contexts i.e. library. Which can be achieved with below steps.
