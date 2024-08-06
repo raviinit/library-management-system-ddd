@@ -41,6 +41,8 @@ use App\Interfaces\Controllers\BookController;
 use App\Interfaces\Controllers\UserController;
 use App\Interfaces\Controllers\BorrowController;
 
+$pdo = require_once '../config/database.php';
+
 $routecontroller = $uri[2];
 $action = $uri[3] ?? null;
 $id = $uri[4] ?? null;
